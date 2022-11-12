@@ -1,4 +1,4 @@
-// uma classe para a Queue, uma lista em javascript
+// uma classe para a Queue, uma lista em javascript.
 
 class Queue {
     constructor() {
@@ -159,5 +159,5 @@ g.addAresta('C', 'F');
 // E -> A D F C
 // F -> E C
 g.printGrafo();
-console.log("\n-- BFS --\n");
+console.log("\n--- BFS ---\n");
 g.bfs('A');
